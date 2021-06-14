@@ -10,7 +10,7 @@
             <a href="Introduction" class="nav-link">Introduction</a>
             <a href="Data_types" class="nav-link">Data types</a>
             <a href="Declaring_variables" class="nav-link">Declaring variables</a>
-            <a href="Operators" class="nav-link">Operators</a>
+            <a href="Arithmetic_operators" class="nav-link">Arithmetic operators</a>
             <a href="Conditionals" class="nav-link">Conditionals</a>
             <a href="While_loops" class="nav-link">While loops</a>
             <a href="For_loops" class="nav-link">For loops</a>
@@ -19,56 +19,113 @@
         <main id="main-doc">
             <section id="Introduction" class="main-section">
                 <header>Introduction</header>
-                <p></p>
-                <p></p>
+                <p>"Python is an easy to learn, powerful programming language. 
+                    It has efficient high-level data structures and a simple but effective approach to object-oriented programming. 
+                    Python’s elegant syntax and dynamic typing, together with its interpreted nature, 
+                    make it an ideal language for scripting and rapid application development in many areas on most platforms."</p>
+                <p>-First paragraph from <a href="https://docs.python.org/3/tutorial/index.html" target="_blank">The Python tutorial</a></p>
             </section>
 
             <section id="Data_types" class="main-section">
                 <header>Data types</header>
-                <p></p>
+                <p>Python has many different built-in Data Types all-ready to use immeadiately after installation.
+                    The following however, are the main ones:
+                </p>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Integers</li>
+                    <li>Strings</li>
+                    <li>Lists</li>
+                    <li>Dictionaries</li>
+                    <li>Booleans</li>
                 </ul>
-                <p></p>
+                <p>Integers are numbers which don't have decimal points, raging from -infinity to +infinity</p>
+                <p>Strings are concatenations of unicode characters</p>
+                <p>Lists are mutable sequences</p>
+                <p>Dictionaries are mutable unordered collections</p>
+                <p>True and False values are the keywords which comprise the boolean data type</p>
             </section>
 
             <section id="Declaring_variables" class="main-section">
                 <header>Declaring variables</header>
-                <p></p>
-                <code></code>
+                <p>To declare a variable it's only necessary to write its name and equate it to its intended value like so:</p>
+                <code>example_var = 55</code>
             </section>
 
-            <section id="Operators" class="main-section">
-                <header>Operators</header>
-                <p></p>
-                <code></code>
+            <section id="Arithmetic_operators" class="main-section">
+                <header>Arithmetic operators</header>
+                <p>Atithmetic operators are special characters used to perform calculations. They are the following</p>
+                <ul>
+                    <li>Addition + : returns the sum of two expressions</li>
+                    <li>Substraction - : returns the difference of two expressions</li>
+                    <li>Multiplication * : returns the product of two expressions</li>
+                    <li>Power ** : returns the value of a numeric expression raised to a specified power</li>
+                    <li>Division / : returns the quotient of two expressions</li>
+                    <li>Floor division // : returns the integral part of the quotient</li>
+                    <li>Modulud % : returns the decimal part (remainder) of the quotient</li>
+                </ul>
             </section>
 
             <section id="Conditionals" class="main-section">
                 <header>Conditionals</header>
-                <p></p>
-                <code></code>
+                <p>Python uses the usual flow control statements with some added functionalities</p>
+                <p>Full syntax:</p>
+                <code>
+                    if &lt;logical expression&gt;:
+                    <br>
+                        &emsp;&lt;code block&gt; 
+                    <br>
+                    elif &lt;logical expression&gt;:
+                    <br>
+                        &emsp;&lt;code block&gt;
+                    <br>
+                    &ensp;.
+                    <br>
+                    &ensp;.
+                    <br>
+                    &ensp;.
+                    <br>
+                    else:
+                    <br>
+                        &emsp;&lt;code block&gt;
+                </code>
             </section>
 
             <section id="While_loops" class="main-section">
                 <header>While loops</header>
-                <p></p>
-                <code></code>
+                <p>The while statement is used for repeated execution as long as an expression is true</p>
+                <p>Full syntax:</p>
+                <code>
+                    while &lt;logical expression&gt;:
+                    <br>
+                        &emsp;&lt;code block&gt;
+                    <br>
+                    else:
+                        &emsp;&lt;code block&gt;    
+                </code>
             </section>
 
             <section id="For_loops" class="main-section">
                 <header>For loops</header>
-                <p></p>
-                <code></code>
+                <p>The for statement is used to iterate over the elements of a sequence 
+                    (such as a string, tuple or list) or other iterable object
+                </p>
+                <p>Syntax:</p>
+                <code>
+                    for &lt;variable&gt; in &lt;iterable&gt;:
+                    <br>
+                        &emsp;&lt;code block&gt;
+                </code>
             </section>
 
             <section id="Reference" class="main-section">
                 <header>Reference</header>
-                <p></p>
+                <p>Everything in this page has been sourced from: 
+                    <a href="https://docs.python.org/3/" target="_blank">Python's official documentation</a>, 
+                    <a href="https://python-reference.readthedocs.io/en/latest/docs/operators/">The Python Reference</a>, 
+                    and the
+                    <a href="https://realpython.com/">Real Python</a>
+                    website.
+                </p>
             </section>
         </main>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
